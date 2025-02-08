@@ -30,7 +30,7 @@ export default function Navbar() {
  
       {/* Mobile Menu */}
       <div
-        className={`absolute right-0 block lg:hidden top-8 w-[200px] h-64 px-8 py-4 bg-slate-200 z-50 rounded-lg shadow-lg transition-transform duration-300 ${
+        className={`absolute right-0 block lg:hidden top-8 w-[200px] h-64 px-8 py-4 bg-gray-50 z-50 rounded-lg shadow-lg transition-transform duration-300 ${
           open ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"
         }`}
       >
